@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+2020 has affected so many people and we are very grateful to have a reason to celebrate.
 
-You can use the [editor on GitHub](https://github.com/shivdeepak/jyosh.life/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Please grace us with your presence at the digital wedding of
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Jyotsna Kadimi
 
-### Markdown
+and
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Shiv Deepak Muddada
 
-```markdown
-Syntax highlighted code block
+### when & where
 
-# Header 1
-## Header 2
-### Header 3
+On Oct 25th 2020<br>
+At 9:30 AM PT<br> 
+[Streaming live](https://jyosh.life)<br>
+from Pacifica, Calfornia
 
-- Bulleted
-- List
+### Not able to join?
 
-1. Numbered
-2. List
+This event is hosted on Facebook. If you are having trouble joining try the following:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shivdeepak/jyosh.life/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Please make sure you are logged into Facebook, and then click the "Streaming live" link. 
+  - Please create a Facebook account if you don’t have one.
+- Please reach out to one of the organizers to add you to the Facebook group.
+  - Please make sure you already have the organizer on your friend list on Facebook.
