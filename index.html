@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -106,39 +105,100 @@
 
         section.troubleshoot {
             background: #ddd;
-            border: 1px solid #aaa;
+
+            -webkit-border-top-left-radius: .5em;
+            -webkit-border-top-right-radius: .5em;
+            -moz-border-radius-topleft: .5em;
+            -moz-border-radius-topright: .5em;
+            border-top-left-radius: .5em;
+            border-top-right-radius: .5em;
+
+
+            padding: 2em;
+            color: #555;
+            margin-bottom: 0;
+            padding-bottom: 0.25em;
+        }
+
+        section.live-stream {
+            color: white;
         }
 
         section.hero {
-            background: url(heroimg.jpg);
             color: #fefefe;
-            padding: 3.5em;
+            padding: 1.5em;
             font-size: 1.2em;
             margin-top: 0;
             position: relative;
+            border-bottom: .1em solid;
         }
+
+        section.hero p {
+            color: white;
+            padding: 0.1em 0.2em;
+            margin: 0.3em;
+            z-index: 100;
+        }
+
+        div.bg-wrap {
+            width: 100%;
+            z-index: -1000;
+            position: absolute;
+            background: url(bg.jpg);
+            opacity: 0.7;
+        }
+
+        div.bg-overlay {
+            background: black;
+            height: 100%;
+            position: fixed;
+            float: left;
+            min-height: 100px;
+            position: absolute;
+            opacity: 0.8;
+            top: 0;
+            right: 0;
+            left: 0;
+        }
+
+        button.watch-live {
+            background-color: #F1421A;
+            font-weight: 600;
+            border: none;
+            color: white;
+            padding: 1em 2em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            border-radius: .3em;
+            margin: .5em;
+            cursor: pointer;
+        }
+    
     </style>
 
   </head>
   <body>
+      <div class="bg-wrap">
+        <div class="bg-overlay"></div>
+      </div>
       <div class="card">
         <section class="hero">
-            <img src='fblivebtn.png' height="32" style="position: absolute; top: 0.4em; right: 0.4em;"/>
-            <p style="font-size: 1.5em;">We are getting married!</p>
-
-            <p>Jyo & Shiv</p>
-        
-            <p>Oct • 25 • 2020</p>
+            <p style="font-size: 2em;">Hi!</p>
+            <p style="font-size: 2em;">This is Jyo and Shiv</p>
+            <p style="font-size: 1em;">&</p>
+            <p style="font-size: 2.5em;">We Are Getting Married!</p>
         </section>
-        
+
         <section class="live-stream">
             <h3>Join us Live</h3>    
-            <p>On Oct 25th 2020</p>
-            <p>At 9:30 AM PT / 10:00 PM IST</p>
+            <p>Oct • 25 • 2020</p>
+            <p>9:30 AM PT / 10:00 PM IST</p>
             <p>Streaming from Pacifica, Calfornia</p>
-            <p><a href="" style="cursor: pointer;"><img height=54 src="watchlivebtn.png"></a></p>
+            <p><a href="" style="cursor: pointer;"><button class="watch-live">WATCH LIVE</button></a></p>
             
-            <p style="font-size: .75em; color: red; opacity: .9; margin-top: -1em">*you should be logged-in to facebook</p>
+            <p style="font-size: .75em;  opacity: .9; margin-top: -1em">*you should be logged-in to facebook</p>
         </section>
 
         <section class="troubleshoot">
@@ -151,7 +211,17 @@
             <p>Please make sure you have an active facebook account. If you don't have then please create one.</p>
             <p><b>Are you friends with one of the organizers on facebook? </b></p>
             <p>If not, please add one of them as your friends and reach out to them to invite you to the group.</p>
+            <p>—— • ——</p>
         </section>
       </div>
   </body>
+  <script>
+    window.onload = (event) => {
+        console.log("exec");
+        var bg_wrap = document.getElementsByClassName("bg-wrap")[0];
+        console.log(document.getElementsByClassName("card")[0].offsetHeight + "px");
+        bg_wrap.style.height = document.getElementsByClassName("card")[0].offsetHeight + "px";
+        console.log(bg_wrap.style.height)
+      };
+  </script>
 </html>
